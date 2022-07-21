@@ -1,0 +1,18 @@
+name: Container Basics
+
+modules:
+    activate:
+    - workshop-overview
+    - running-containers/01-starting-a-container
+    - running-containers/02-interactive-terminal
+    - running-containers/03-stopped-containers
+    - running-containers/04-networked-services
+    - creating-images/01-what-are-images
+    - creating-images/02-building-an-image
+    - creating-images/03-container-to-image
+    - creating-images/04-inspecting-layers
+    - creating-images/05-using-a-dockerfile
+    - creating-images/06-choosing-a-base
+    - creating-images/07-system-packages
+    - creating-images/08-sharing-images
+    - workshop-summary

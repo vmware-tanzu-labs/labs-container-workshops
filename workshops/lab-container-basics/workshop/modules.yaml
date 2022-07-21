@@ -1,0 +1,38 @@
+modules:
+    workshop-overview:
+        name: Workshop Overview
+        exit_sign: Start Workshop
+    running-containers/01-starting-a-container:
+        name: Starting a Container
+    running-containers/02-interactive-terminal:
+        name: Interactive Terminal
+    running-containers/03-stopped-containers:
+        name: Stopped Containers
+    running-containers/04-networked-services:
+        name: Networked Services
+    creating-images/01-what-are-images:
+        name: What are Images
+    creating-images/02-building-an-image:
+        name: Building an Image
+    creating-images/03-container-to-image:
+        name: Container to Image
+    creating-images/04-inspecting-layers:
+        name: Inspecting Layers
+    creating-images/05-using-a-dockerfile:
+        name: Using a Dockerfile
+    creating-images/06-choosing-a-base:
+        name: Choosing a Base
+    creating-images/07-system-packages:
+        name: System Packages
+    creating-images/08-sharing-images:
+        name: Sharing Images
+    workshop-summary:
+        name: Workshop Summary
+        exit_sign: Finish Workshop
+
+config:
+  vars:
+  - name: REGISTRY_HOST
+  - name: REGISTRY_AUTH_FILE
+  - name: REGISTRY_USERNAME
+  - name: REGISTRY_PASSWORD
