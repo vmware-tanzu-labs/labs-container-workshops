@@ -17,7 +17,7 @@ cat Dockerfile
 This time you should see:
 
 ```
-FROM fedora:35
+FROM fedora:37
 
 RUN dnf install -y --setopt=tsflags=nodocs findutils procps which && \
     dnf clean -y --enablerepo='*' all
@@ -67,7 +67,7 @@ You should see output similar to:
 
 ```
 Sending build context to Docker daemon  4.096kB
-Step 1/4 : FROM fedora:35
+Step 1/4 : FROM fedora:37
  ---> 177d5adf0c6c
 Step 2/4 : RUN dnf install -y --setopt=tsflags=nodocs findutils procps which &&     dnf clean -y --enablerep
 o='*' all
