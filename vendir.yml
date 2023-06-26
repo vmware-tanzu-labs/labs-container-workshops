@@ -1,0 +1,12 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+directories:
+- path: workshops/lab-k8s-fundamentals/resources
+  contents:
+  - path: .
+    githubRelease:
+      slug: vmware-tanzu-labs/lab-k8s-fundamentals
+      tag: "5.0"
+      assetNames:
+      - workshop.yaml
+      disableAutoChecksumValidation: true

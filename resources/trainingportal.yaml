@@ -20,3 +20,8 @@ spec:
     overtime: 10m
     deadline: 60m
     orphaned: 5m
+  - name: lab-k8s-fundamentals
+    expires: 60m
+    overtime: 10m
+    deadline: 90m
+    orphaned: 5m
