@@ -2,8 +2,8 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - githubRelease:
-      tag: "5.0"
-      url: https://api.github.com/repos/vmware-tanzu-labs/lab-k8s-fundamentals/releases/84142073
+      tag: "6.0"
+      url: https://api.github.com/repos/vmware-tanzu-labs/lab-k8s-fundamentals/releases/110800835
     path: .
   path: workshops/lab-k8s-fundamentals/resources
 kind: LockConfig

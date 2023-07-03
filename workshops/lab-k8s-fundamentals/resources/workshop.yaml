@@ -8,7 +8,7 @@ spec:
   workshop:
     files:
     - image:
-        url: ghcr.io/vmware-tanzu-labs/lab-k8s-fundamentals-files:5.0
+        url: ghcr.io/vmware-tanzu-labs/lab-k8s-fundamentals-files:6.0
       includePaths:
       - /workshop/**
       - /templates/**

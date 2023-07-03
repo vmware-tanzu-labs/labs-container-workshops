@@ -6,7 +6,7 @@ directories:
   - path: .
     githubRelease:
       slug: vmware-tanzu-labs/lab-k8s-fundamentals
-      tag: "5.0"
+      tag: "6.0"
       assetNames:
       - workshop.yaml
       disableAutoChecksumValidation: true
